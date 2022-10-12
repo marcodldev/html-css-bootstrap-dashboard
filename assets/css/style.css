@@ -36,9 +36,14 @@ nav {
 #barrasinistraimg {
     background-image: url('../img/sidebar-bg.png');
     background-position: center;
-    height: 85%;
+    background-size: cover;
+    height: 75%;
 }
 
 .asdasd {
     background-repeat: no-repeat;
 }
+
+nav span {
+    padding: 10px;
+} 
