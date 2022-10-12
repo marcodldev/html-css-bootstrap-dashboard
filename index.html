@@ -13,58 +13,20 @@
 
     <div class="web-app">
 
-        <header>
-            
-            <div class="container-fluid">
-
-                <nav class="row">
-
-                    <div class="col-2">
-                        <img class="d-none d-sm-block" src="./assets/img/logo.svg" alt="logo">
-                        <img class="w-100  d-block d-sm-none" src="./assets/img/mobile-logo.png" alt="mobile-logo">
-                    </div>
-
-                    <div class="input-group col-8">
-                        <div class="form-outline">
-                          <input type="search" id="form1" class="form-control" />
-                          <label class="form-label" for="form1">Search</label>
-                        </div>
-                        <button type="button" class="btn btn-primary">
-                          <i class="fas fa-search"></i>
-                        </button>
-                      </div>
-
-                    <div class="col-1">
-                        <div>
-                          <i class="fa-solid fa-bars"></i>  
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-question"></i>
-                        </div>
-                        
-                        <div>
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                        </div>
-
-                        <div class="dropdown campana">
-                            <button class="btn dropdown-toggle b" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-bell"></i>
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Profilo</a></li>
-                              <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                              <li><a class="dropdown-item" href="#">Logout</a></li>
-                            </ul>
-                          </div>
-
-                    </div>
-
-
-                </nav>
-
+        <header class="d-flex py-1">
+            <div class="d-flex">
+              <img class="mx-1" src="assets/img/mobile-logo.png" alt="">  
             </div>
+            
+            <div class="col-8">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                  </form>
+              </div>
+              <div class="col-4">
+                lorem
 
+              </div>
         </header>
 
         <main>

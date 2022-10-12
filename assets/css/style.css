@@ -3,13 +3,14 @@
 }
 
 header {
-    width: 100%;
+    height: 50px;
 }
 
 main {
-    height: calc(100vh - 40px);
+    height: calc(100vh - 50px);
     background-color: blueviolet;
 }
+.logo{height: 80px;}
 
 nav {
     
@@ -22,4 +23,8 @@ nav {
 .campana i {
     color: #ff8f00;
 
+}
+
+.mobileimg:last-child img {
+    width: 50px;
 }
