@@ -1,0 +1,25 @@
+.web-app {
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+}
+
+main {
+    height: calc(100vh - 40px);
+    background-color: blueviolet;
+}
+
+nav {
+    
+}
+
+.campana {
+    border: none;
+}
+
+.campana i {
+    color: #ff8f00;
+
+}
