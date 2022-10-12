@@ -13,7 +13,11 @@ main {
 .logo{height: 80px;}
 
 nav {
-    
+    background-color: purple;
+}
+
+.areaprincipale {
+    background-color: greenyellow;
 }
 
 .campana {
@@ -27,4 +31,14 @@ nav {
 
 .mobileimg:last-child img {
     width: 50px;
+}
+
+#barrasinistraimg {
+    background-image: url('../img/sidebar-bg.png');
+    background-position: center;
+    height: 90%;
+}
+
+.asdasd {
+    background-repeat: no-repeat;
 }
