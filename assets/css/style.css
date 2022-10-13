@@ -18,6 +18,7 @@ nav {
 
 .areaprincipale {
     background-color: white;
+    overflow: auto;
 }
 
 .campana {
