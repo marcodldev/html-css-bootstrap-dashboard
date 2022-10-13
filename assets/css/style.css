@@ -8,13 +8,10 @@ header {
 
 main {
     height: calc(100vh - 50px);
-    background-color: blueviolet;
+    background-color: #051e34;
 }
 .logo{height: 80px;}
 
-nav {
-    background-color: #051e34;
-}
 
 .areaprincipale {
     background-color: white;
@@ -52,3 +49,9 @@ nav span {
 th img {
     max-width: 20px;
 }
+
+.breadcrumb >.active {
+    color: white;
+    text-decoration: none;
+ }
+
