@@ -48,3 +48,7 @@ nav {
 nav span {
     padding: 10px;
 } 
+
+th img {
+    max-width: 20px;
+}
