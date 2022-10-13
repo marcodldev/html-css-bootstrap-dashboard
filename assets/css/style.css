@@ -48,6 +48,11 @@ nav span {
     width: 60px;
 } 
 
+.areaprincipale nav span{
+    width: auto;
+    margin-right: 10px;
+}
+
 th img {
     max-width: 20px;
 }
@@ -68,3 +73,4 @@ th img {
     border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);
     transform: translateX(100%);
 }
+
