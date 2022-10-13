@@ -20,6 +20,7 @@ main {
 
 .campana {
     border: none;
+    padding-top: 10px;
 }
 
 .campana i {
@@ -44,6 +45,7 @@ main {
 
 nav span {
     padding: 10px;
+    width: 60px;
 } 
 
 th img {
@@ -55,3 +57,14 @@ th img {
     text-decoration: none;
  }
 
+ .breadcrumb-item+.breadcrumb-item::before {
+    color: white;
+ }
+
+ .offcanvas.offcanvas-end {
+    top: 0;
+    right: 0;
+    width: 80%;
+    border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);
+    transform: translateX(100%);
+}
