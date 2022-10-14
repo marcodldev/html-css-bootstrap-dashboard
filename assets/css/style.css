@@ -96,4 +96,8 @@ td:first-child {
     td:nth-child(3) {
         display: none;
     }
+
+    .offcanvas.offcanvas-end {
+        width: 100%;
+    }
 }
