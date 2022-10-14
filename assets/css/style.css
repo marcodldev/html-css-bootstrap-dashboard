@@ -74,3 +74,7 @@ th img {
     transform: translateX(100%);
 }
 
+th:first-child,
+td:first-child {
+    text-align: left;
+}
