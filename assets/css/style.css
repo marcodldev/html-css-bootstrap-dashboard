@@ -10,7 +10,10 @@ main {
     height: calc(100vh - 50px);
     background-color: #051e34;
 }
-.logo{height: 80px;}
+
+.logo {
+    height: 80px;
+}
 
 
 .areaprincipale {
@@ -46,9 +49,9 @@ main {
 nav span {
     padding: 10px;
     width: 60px;
-} 
+}
 
-.areaprincipale nav span{
+.areaprincipale nav span {
     width: auto;
     margin-right: 10px;
 }
@@ -57,16 +60,16 @@ th img {
     max-width: 20px;
 }
 
-.breadcrumb >.active {
+.breadcrumb>.active {
     color: white;
     text-decoration: none;
- }
+}
 
- .breadcrumb-item+.breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: white;
- }
+}
 
- .offcanvas.offcanvas-end {
+.offcanvas.offcanvas-end {
     top: 0;
     right: 0;
     width: 80%;
@@ -77,4 +80,20 @@ th img {
 th:first-child,
 td:first-child {
     text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+
+    th:nth-child(2),
+    td:nth-child(2) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    th:nth-child(3),
+    td:nth-child(3) {
+        display: none;
+    }
 }
